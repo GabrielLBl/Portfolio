@@ -1,6 +1,6 @@
 # Portfólio 
 
-Portfólio totalmente responsivo realizado para a disciplina de PWEB, baseado no design da minha série de jogos favorita, Yakuza.<br />
+Portfólio totalmente responsivo realizado para a disciplina de PWEB, baseado no design da minha série de jogos favorita, Yakuza.
 Acesse o site online por <a href="https://portfolio-gbzap.netlify.app/">AQUI</a>.
 
 ![GIF Yakuza](https://github.com/GabrielLBl/Portfolio/blob/main/FridayNight.gif)
