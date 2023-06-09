@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="src/style.css"/>
+        <link rel="icon" type="image/png" href="imagens/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3124dcf9cc.js" crossorigin="anonymous"></script>
+        <title>Gabriel Leite - Portfolio</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <button class="voltar-topo" id="btnVoltarTopo">
+            <img src="imagens/up.png" alt="Voltar Para Topo"/>
+        </button>
+
+        <section class="hero">
+            <nav>
+                <img class="gbimagem" src="imagens/GBLOGO.png" alt="GBEDO"/>
+                <ul id="nav-list">
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+            <div class="hero-area">
+                <div class="introducao">
+                    <h1>Gabriel Leite Cardoso</h1>
+                    <p>Análise e Desenvolvimento de Sistemas</p>
+                    <div class="button"><a href="#sobre-mim">Sobre mim</a></div>
+                </div>
+                <div class="redes">
+                    <div>
+                      <a href="https://github.com/GabrielLBl">
+                        <img class="imgredes" src="imagens/git.svg" alt="git"/>
+                      </a>
+                    </div>
+
+                    <div>
+                      <a href="https://www.instagram.com/gb_zap/">
+                        <img class="imgredes" src="imagens/insta.svg" alt="insta"/>
+                      </a>
+                    </div>
+
+                    <div>
+                      <a href="https://www.linkedin.com/in/gabriel-leite-36123b253/">
+                        <img class="imgredes" src="imagens/linkedin.svg" alt="linkedin"/>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="full borda" id="sobre-mim">
+            <section class="Sobremim">
+                <section class="subsecao">
+                    <div class="sobre">
+                        <h2>Sobre mim</h2>
+                        <p>&emsp;Seja bem vindo ao meu Portfólio! Meu nome é Gabriel Leite Cardoso, tenho 20 anos e gosto muito de jogos e 
+                            de computadores num geral, minha série de jogos favorita se chama Yakuza (Ryū Ga Gotoku), ao que inspirou
+                            o design geral deste site.</p>
+                    </div>
+                    <div class="GBcabeca-container">
+                        <img class="GBcabeca" src="imagens/GBcabeca.jpg" alt="Cabeca do GB"/>
+                    </div>
+                </section>
+                
+                <div class="tattoos-linha">
+                    <div class="hannya">
+                        <img src="imagens/hannya.png" alt="Majima Hannya"/>
+                    </div>
+                    <div class="hannya">
+                        <img src="imagens/taiga.png" alt="Saejima Taiga"/>
+                    </div>
+                </div>
+                <br>
+
+                <section class="subsecao">
+                    <div class="fatecimg-container">
+                        <img class="fatecimg" src="imagens/fatec.jpg" alt="Fatec-SO"/>
+                    </div>
+                    <p id="formacao">&emsp;Finalizei o ensino fundamental e o ensino médio na escola Dom Bosco de Ibiúna e 
+                                    atualmente estou cursando o 4º semestre do curso diurno de Análise e Desenvolvimento 
+                                    de Sistemas da Faculdade de Tecnologia de Sorocaba.</p>
+                </section>
+                
+                <div class="tattoos-linha">
+                    <div class="ichiban">
+                        <img src="imagens/viper.jpg" alt="Rikiya Viper"/>
+                    </div>
+                    <div class="ichiban">
+                        <img src="imagens/ichiban.png" alt="Ichiban Koi"/>
+                    </div>
+                </div>
+                <br>
+
+                <section class="subsecao">
+                    <p id="estagio">&emsp;Sou estagiário de desenvolvimento na empresa Connectuse Sistemas desde abril de 2023, 
+                        onde realizo implementações, codificações e testes das rotinas desenvolvidas, com um maior foco 
+                        em Javascript e PL/SQL através da ferramenta da Oracle APEX.</p>
+                    <div class="connectuse-container">
+                        <img class="connectuse" src="imagens/connectuse.jpg" alt="Connectuse"/>
+                    </div>
+                </section>
+            </section>
+        </div>
+
+
+        <section id="projetos" class="Projetos">
+            <h2>Projetos</h2>
+            <div class="projeto-container">
+                <div class="projeto-card">
+                    <img class ="projeto-img" src="imagens/genml.png" alt="GEN-ML"/>
+                    <h3>GEN - Mercado Livre</h3>
+                    <p class="subtexto">Dashboard interativo com filtros para automatização de pesquisas 
+                                        utilizando a API do Mercado Livre</p>
+                    <hr/>
+                    <p class="subtexto"><a class="projeto-link" href="https://github.com/geracao/gen-ml">Veja aqui</a></p>
+                </div>
+
+                <div class="projeto-card">
+                    <img class ="projeto-img" src="imagens/gencrud.png" alt="GEN-CRUD"/>
+                    <h3>GEN - CRUD</h3>
+                    <p class="subtexto">Site com CRUD para cadastrar os membros da Geração, com sua própria API funcional</p>
+                    <hr/>
+                    <p class="subtexto"><a class="projeto-link" href="https://github.com/geracao/gen-crud-web">Veja aqui</a></p>
+                </div>
+
+                <div class="projeto-card">
+                    <img class ="projeto-img" src="imagens/gbflix.png" alt="GBFLIX"/>
+                    <h3>GBFlix</h3>
+                    <p class="subtexto">Site de filmes responsivo realizado por mim para treinamento básico 
+                                        de HTML, CSS e Javascript</p>
+                    <hr/>
+                    <p class="subtexto"><a class="projeto-link" href="https://codepen.io/gabrielleitec/pen/ExbqqJR">Veja aqui</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <footer id="contato">
+            <div class="footer-container">
+              <div class="footer-conteudo">
+                <div class="footer-img">
+                    <a href="https://www.youtube.com/watch?v=434rBX_G85o">
+                        <img src="imagens/kiryu.gif" alt="Today is a Diamond" />
+                      </a>
+                  </div>
+                <div class="footer-texto">
+                  <h2 id="email">Me envie um email!</h2>
+                  <form action="https://formsubmit.co/gabrielleitecardoso123@gmail.com" method="POST" onsubmit="enviarEmail()">
+                    <div class="form-row">
+                      <input type="text" name="name" class="form-control" placeholder="Seu nome" required>
+                      <input type="email" name="email" class="form-control" placeholder="Seu email" required>
+                    </div>
+                    <textarea class="form-control" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/" id="Enviou">
+                    <input type="hidden" name="_captcha" value="false">
+                    <button id="enviar" type="submit">Enviar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+        <script src="src/script.js"></script>
+    </body>
+</html>
