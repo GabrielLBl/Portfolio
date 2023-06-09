@@ -2,7 +2,7 @@
 
 Portfólio totalmente responsivo realizado para a disciplina de PWEB, baseado no tema de minha série de jogos favorita
 
-![GIF Yakuza](teste)
+![GIF Yakuza](https://github.com/GabrielLBl/Portfolio/blob/main/FridayNight.gif)
 
 
 + ### Tecnologias e IDE:
